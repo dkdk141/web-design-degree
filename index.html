@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>Mohelnice bazán</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
+	</head>
+	<body>
+		<div class="loader"></div>
+		<!-- <div id="bg-image">
+			<img id="bg" src="bg-main.jpg" />
+
+		</div> -->
+		<div id="content-page">
+			<div class="main">
+				<div id="menu">
+
+				</div>
+				<div id="logo">
+					Vaše logo zde
+				</div>
+				<div id="spacing-top">
+					&nbsp;
+				</div>
+				<div id="circles">
+						<table id="circles-table">
+							<tr>
+								<div id="main-circles">
+								<td>
+									<a href="#oteviraci_doba">
+									<div id="circle-1">
+										<img id="circle-1-img" src="circle-1.png"/>
+										<div id="circle-1-text">
+											OTEVÍRACÍ DOBA
+										</div>
+									</div>
+									</a>
+								</td>
+								<td>
+									<a href="#cenik">
+									<div id="circle-2">
+										<img id="circle-2-img" src="circle-2.png"/>
+										<div id="circle-2-text">
+											CENÍK
+										</div>
+									</div>
+									</a>
+								</td>
+								<td>
+									<a href="#aktuality">
+									<div id="circle-3">
+										<img id="circle-3-img" src="circle-3.png"/>
+										<div id="circle-3-text">
+											AKTUALITY
+										</div>
+									</div>
+									</a>
+								</td>
+								<td>
+									<div id="circle-4">
+										<img id="circle-4-img" src="circle-4.png"/>
+										<div id="circle-4-text">
+											GALERIE
+											<div id="circle-4-small-text">
+												A
+												<br />
+												VIRUÁLNÍ PROHDLÍDKA
+											</div>
+										</div>
+									</div>
+								</td>
+								</div>
+								<td>
+									<div id="side-circles">
+									<table id="side-circles-table">
+										<tr>
+											<td id="top">
+												<a href="#sauna">
+													<div id="circle-5">
+														<img id="circle-5-img" src="circle-5.png"/>
+														<div id="circle-5-text">
+															SAUNA
+														</div>
+													</div>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td id="middle">
+												<a href="#bazen">
+													<div id="circle-6">
+														<img id="circle-6-img" src="circle-6.png"/>
+														<div id="circle-6-text">
+															BAZÉN
+														</div>
+													</div>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td id="bottom">
+												<a href="#kontakty">
+												<div id="circle-7">
+													<img id="circle-7-img" src="circle-7.png"/>
+													<svg id="phone-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+														<path d="M0,0h24v24H0V0z" fill="none"/>
+														<path id="phone" d="M12.1,17.5c2.4-2.1,4.1-4.9,4.9-8l-2.7-1.7c-0.3-0.2-0.5-0.6-0.5-0.9c0.1-1.2,0-2.4-0.3-3.6
+															c-0.1-0.5,0.2-1.1,0.7-1.2l3.4-0.8c0.6-0.1,1.1,0.2,1.2,0.8c2.2,9.1-3.3,18.3-12.5,20.6c-0.5,0.1-1-0.2-1.1-0.8l-0.8-3.4
+															c-0.1-0.5,0.2-1.1,0.7-1.2c1.2-0.3,2.3-0.8,3.3-1.4c0.3-0.2,0.7-0.2,1,0L12.1,17.5z" fill="#FFFFFF"/>
+													</svg>
+												</div>
+												</a>
+											</td>
+										</tr>
+									</table>
+								</div>
+								</td>
+							</tr>
+						</table>
+				</div>
+				<div id="spacing-bottom">
+					&nbsp;
+				</div>
+			</div>
+			<div id="gradient-bottom">
+				&nbsp;
+			</div>
+			<div class="side-page-wrapper page-1" id="oteviraci_doba-wrapper">
+				<div class="side-page-image-wrapper">
+					<img src="page-1.png" class="sidepage_image left-sidepage-image" id="img-page-1"/>
+				</div>
+				<div class="side-page" id="oteviraci_doba">
+					<div class="title">
+						<span>
+							Nadpis
+							<div class="underline">
+								&nbsp;
+							</div>
+						</span>
+					</div>
+					<div class="content">
+						<span class="content-text">
+							Zde bude váš text, který bude vypadat jako tento. Je možnost úprav:
+							<ul>
+								<li>
+									barva textu
+								</li>
+								<li>
+									font
+								</li>
+								<li>
+									a další
+								</li>
+							</ul>
+						</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="side-page-wrapper page-2" id="oteviraci_doba-wrapper">
+				<div class="side-page-image-wrapper">
+					<img src="page-2.png" class="sidepage_image right-sidepage-image" id="img-page-1"/>
+				</div>
+				<div class="side-page" id="oteviraci_doba">
+					<div class="title">
+						<span>
+							Nadpis
+							<div class="underline">
+								&nbsp;
+							</div>
+						</span>
+					</div>
+					<div class="content">
+						<span class="content-text">
+							Zde bude váš text, který bude vypadat jako tento. Je možnost úprav:
+							<ul>
+								<li>
+									barva textu
+								</li>
+								<li>
+									font
+								</li>
+								<li>
+									a další
+								</li>
+							</ul>
+						</span>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+	</body>
+</html>
